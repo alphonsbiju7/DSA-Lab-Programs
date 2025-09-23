@@ -42,16 +42,17 @@ All programs are written with **modular, readable, and well-commented code** to 
 - **Version Control:** Git & GitHub  
 
 ---
-
 ## 📜 How to Compile & Run
 
 ```bash
 gcc program_name.c -o program
 ./program
+```
 
 👨‍💻 Maintainer
 
 Alphons Biju
 BTech CSE – 3rd Semester (Autonomous Batch)
 St Joseph’s College of Engineering and Technology, Palai
+
 
