@@ -1,58 +1,112 @@
-# DSA-Lab-Programs
+📘 DSA-Lab-Programs
 
-## 📘 About This Repository
+This repository contains Data Structures & Algorithms (DSA) laboratory programs in C, developed as part of the 3rd Semester BTech CSE (Autonomous Batch) curriculum.
 
-This repository contains **DSA lab programs in C** developed as part of the **3rd Semester BTech CSE curriculum** for the **autonomous batch**.  
+It includes implementations of arrays, stacks, queues, linked lists, trees, graphs, hashing, and sorting algorithms, all written in clean, modular, and well-commented C code to support easy understanding and revision.
 
-It covers **core data structures, algorithms, and practical problem-solving exercises**, demonstrating a strong foundation in **arrays, linked lists, stacks, queues, trees, graphs, and recursion**.
+🎯 Skills Demonstrated
 
-All programs are written with **modular, readable, and well-commented code** to facilitate understanding and maintenance.
+Array-Based Operations
+Polynomial addition, sparse matrix operations, binary search, sorting algorithms.
 
----
+Stack Applications
+Infix → postfix/prefix conversion and expression evaluation.
 
-## 🎯 Skills Demonstrated
+Queue Variants
+Linear queue, circular queue, deque (double-ended queue).
 
-- **Array operations:** Polynomial addition, sparse matrix manipulation  
-- **Stack & Queue implementation:** Infix → Postfix/Prefix conversion, evaluation, circular queue  
-- **Linked list operations:** Polynomial addition, doubly linked list navigation  
-- **Tree operations:** Binary tree creation, prefix/postfix expressions, binary search tree (BST) operations  
-- **Graph traversal:** Breadth-First Search (BFS)  
-- **Practical application programs:** Web browser navigation, text editor find & replace feature  
+Linked List Applications
+Polynomial addition, web browser navigation, memory allocator simulation.
 
----
+Tree Operations
+Expression tree creation, prefix/postfix generation, BST operations.
 
-## 📋 List of Experiments
+Graph Traversal
+Breadth-First Search (BFS).
 
-1. **Sum of Two Polynomials** – Using arrays  
-2. **Sum & Transpose of Sparse Matrices** – Using arrays  
-3. **Infix to Postfix/Prefix Conversion & Evaluation** – Using stack  
-4. **Queue, DEQUEUE, Circular Queue Implementation** – Using arrays  
-5. **Backward & Forward Navigation of Web Pages** – Using doubly linked list  
-6. **Addition of Polynomials** – Using singly linked lists  
-7. **Binary Tree for Arithmetic Expressions** – Generate prefix/postfix equivalent  
-8. **Binary Search Tree (BST) Operations** – Insertion, search, deletion using linked list  
-9. **Breadth-First Search (BFS)** – Using arrays  
-10. **Find and Replace Feature in a Text Editor**  
+Hashing Techniques
+Basic hash table implementation with collision handling.
 
----
-## 🛠 Tools Used
+📂 Folder Structure
+01_Arrays
+02_Stacks
+03_Queues
+04_Linked_Lists
+05_Trees
+06_Graphs
+07_Misc
 
-- **C Programming Language (GCC Compiler)**  
-- **IDE:** Visual Studio Code / Code::Blocks  
-- **Version Control:** Git & GitHub  
 
----
-## 📜 How to Compile & Run
+Each folder contains C programs + individual README.md explanations.
 
-```bash
+📋 Complete List of Experiments (14 Programs)
+01_Arrays
+
+Sum of Two Polynomials – Using arrays
+
+Sparse Matrix Addition & Transpose – Using arrays
+
+Binary Search – Efficient search in a sorted array
+
+Sorting Algorithms – Bubble, Insertion, Quick, and Merge Sort
+
+02_Stacks
+
+Infix → Postfix/Prefix Conversion & Evaluation – Using stack
+
+03_Queues
+
+Linear Queue Implementation – Using arrays
+
+Circular Queue Implementation – Using arrays
+
+DEQUEUE Implementation (Double-Ended Queue) – Using arrays
+
+04_Linked_Lists
+
+Backward & Forward Web Page Navigation – Using doubly linked list
+
+Polynomial Addition – Using singly linked list
+
+Memory Allocator & Garbage Collector Simulation – Using doubly linked list
+
+05_Trees
+
+Expression Tree Construction – Generate prefix/postfix
+
+Binary Search Tree (BST) – Insertion, search & deletion
+
+06_Graphs
+
+Breadth-First Search (BFS) – Using arrays
+
+07_Misc
+
+Hash Table Implementation – 10-slot hash table with hashing function
+
+💡 Additional Clarifications
+
+✔ Linear Queue, Circular Queue, and Deque are uploaded as three separate programs.
+✔ Sorting algorithms are included as a combined or separate .c files inside the Arrays folder.
+✔ Program names follow consistent naming for easy execution.
+
+🛠 Tools & Technologies Used
+
+Language: C (GCC Compiler)
+
+IDE: Visual Studio Code / Code::Blocks
+
+Version Control: Git & GitHub
+
+▶️ How to Compile & Run (VS Code / Terminal)
 gcc program_name.c -o program
 ./program
-```
+
+
+Or use VS Code Run Code (one-click execution).
 
 👨‍💻 Maintainer
 
 Alphons Biju
 BTech CSE – 3rd Semester (Autonomous Batch)
-St Joseph’s College of Engineering and Technology, Palai
-
-
+St. Joseph’s College of Engineering and Technology, Palai
