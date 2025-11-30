@@ -45,29 +45,13 @@ int main() {
 
     printf("\nResultant Polynomial:");
 
-    int firstTerm = 1;
+    printf("\nResultant Polynomial:\n");
+
     for (i = 0; i < k; i++) {
-        if (poly3[i].coeff == 0) continue;
+        printf("%d x^%d", poly3[i].coeff, poly3[i].exp);
 
-     
-        if (!firstTerm) {
-            if (poly3[i].coeff > 0) printf("+");
-            else printf("-");
-        } else {
-            if (poly3[i].coeff < 0) printf("-");
-            firstTerm = 0;
-        }
-
-        int absCoeff = (poly3[i].coeff < 0) ? -poly3[i].coeff : poly3[i].coeff;
-
-        if (absCoeff != 1 || poly3[i].exp == 0)
-            printf("%d", absCoeff);
-
-        if (poly3[i].exp != 0) {
-            printf("x");
-            if (poly3[i].exp != 1)
-                printf("^%d", poly3[i].exp);
-        }
+        if (i < k - 1)   // add + between terms
+            printf(" + ");
     }
 
     printf("\n");
